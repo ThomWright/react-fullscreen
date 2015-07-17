@@ -1,7 +1,7 @@
 {
   "name": "react-fullscreen",
   "version": "0.0.0",
-  "description": "React component to fullscreen a child component",
+  "description": "React component that fullscreens a child component. Responds to browser resizes.",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && babel src --out-dir dist --ignore \"__tests__\"",
