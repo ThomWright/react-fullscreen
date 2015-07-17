@@ -1,6 +1,9 @@
 import React from 'react/addons';
 
-var getDimensions = () => ({width: window.innerWidth, height: window.innerHeight});
+var getDimensions = () => ({
+  width: window.innerWidth,
+  height: window.innerHeight
+});
 
 export default class FullScreen extends React.Component {
   constructor(props) {
