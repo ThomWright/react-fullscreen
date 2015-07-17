@@ -1,6 +1,6 @@
 {
   "name": "react-fullscreen",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React component that fullscreens a child component. Responds to browser resizes.",
   "main": "dist/index.js",
   "scripts": {
@@ -15,16 +15,14 @@
     "type": "git",
     "url": "https://github.com/ThomWright/react-fullscreen"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Thom Wright <npm@thomwright.co.uk> (http://thomwright.co.uk/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ThomWright/react-fullscreen/issues"
   },
   "homepage": "https://github.com/ThomWright/react-fullscreen",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel": "^5.4.7",
     "babel-eslint": "^3.1.9",
