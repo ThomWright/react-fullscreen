@@ -1,10 +1,18 @@
 sudo: false
 language: node_js
 node_js:
-  - 'iojs'
-  - '0.12'
-  - '0.10'
+- iojs
+- '0.12'
+- '0.10'
 notifications:
   email:
     on_success: never
     on_failure: always
+deploy:
+  provider: npm
+  email: npm@thomwright.co.uk
+  api_key:
+    secure: UyoR97s1ZoaQJO2Q1qp8oYVZJKUpC4wSXvsHkgW1LBnq2JuGZmtro9Q1GWKs64Hvw1R6syYt9rhW0ta/34i7S+NHDLoknmMcyglfCD8sE0eSM1sPmxMv+XZwJ/5cq6MV0VgBoesq/+z39ijOTO/sJxhkREIlJ5MHGxQngKZilvsDcQKirb5LtzodrPnGX8IvUaMdlX8fF3ZP5xPkFZGEacyV2GMeTokiCesJ7MNuMNTfRgGJd3TgawVIBd8XIzos98RzlJKloDFlHrvtpa8P5Eim/okQQuk8fNpKtpySEHasSnKlpvQpVzXNv5zpw3NWWgXs3OpESmPFPOsMh6IrB6OwYNlq9sP6zxych6HSxY94B7sAhYAO2OQoP9vcVyqRTT+JV8C7nEfTW8eKCCZPWnfKIKORLNRxyLO5skVt8KwEWZCeQqX7odm+TYHHinWlD1fYlne7VIRY5uUEZSMOVXojE1No9i/7HVsYT6gL5NfFKYrBs4y/w4JV0WVZKvJYupu4H1Z/dQ+tbX4ximXiEkPO/idrvzRTxClzQ5d8xNjTKNwVxmxWFEVwn9kC3LP7aUyokONoh1cjGqE99W8h8g/FjHVT6H/Qti8hAjsZHtqc1E4Qem4d7/rIEtpYBro9h84sd0fDbneuX2jdyZf/G+C4T6mtB86gRC33USQfzhY=
+  on:
+    tags: true
+    repo: ThomWright/react-fullscreen
