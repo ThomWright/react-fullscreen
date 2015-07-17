@@ -1,0 +1,37 @@
+{
+  "name": "react-fullscreen",
+  "version": "0.0.0",
+  "description": "React component to fullscreen a child component",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && babel src --out-dir dist --ignore \"__tests__\"",
+    "lint": "eslint src/",
+    "mocha": "mocha **/*__tests__/* -R spec --require test-setup",
+    "test": "npm run lint && npm run mocha",
+    "prepublish": "npm test && npm run build && npm shrinkwrap",
+    "postpublish": "rm npm-shrinkwrap.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThomWright/react-fullscreen"
+  },
+  "keywords": [
+  ],
+  "author": "Thom Wright <npm@thomwright.co.uk> (http://thomwright.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomWright/react-fullscreen/issues"
+  },
+  "homepage": "https://github.com/ThomWright/react-fullscreen",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "chai": "^3",
+    "eslint": "^0",
+    "eslint-plugin-react": "^2.2.0",
+    "mocha": "^2.2.5",
+    "rimraf": "^2.3.4"
+  }
+}
