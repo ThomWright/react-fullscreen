@@ -1,5 +1,5 @@
 # react-fullscreen
-[![Travis](https://img.shields.io/travis/ThomWright/react-fullscreen.svg?style=flat-square)](https://travis-ci.org/ThomWright/react-fullscreen)
+[![Build Status](https://snap-ci.com/ThomWright/react-fullscreen/branch/master/build_image)](https://snap-ci.com/ThomWright/react-fullscreen/branch/master)
 [![npm](https://img.shields.io/npm/v/react-fullscreen.svg?style=flat-square)](https://www.npmjs.com/package/react-fullscreen)
 [![David](https://img.shields.io/david/ThomWright/react-fullscreen.svg?style=flat-square)](https://david-dm.org/ThomWright/react-fullscreen)
 [![David](https://img.shields.io/david/dev/ThomWright/react-fullscreen.svg?style=flat-square)](https://david-dm.org/ThomWright/react-fullscreen#info=devDependencies)
