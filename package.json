@@ -31,5 +31,8 @@
     "eslint-plugin-react": "^2.2.0",
     "mocha": "^2.2.5",
     "rimraf": "^2.3.4"
+  },
+  "peerDependencies": {
+    "react": "^0.13"
   }
 }
