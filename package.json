@@ -15,7 +15,15 @@
     "type": "git",
     "url": "https://github.com/ThomWright/react-fullscreen"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "full",
+    "screen",
+    "fullscreen",
+    "full-screen",
+    "maximise",
+    "react-component"
+  ],
   "author": "Thom Wright <npm@thomwright.co.uk> (http://thomwright.co.uk/)",
   "license": "MIT",
   "bugs": {
