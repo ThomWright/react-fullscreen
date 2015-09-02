@@ -1,6 +1,6 @@
 {
   "name": "react-fullscreen",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "React component that fullscreens a child component. Responds to browser resizes.",
   "main": "dist/index.js",
   "scripts": {
