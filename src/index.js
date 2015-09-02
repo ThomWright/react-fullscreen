@@ -1,4 +1,4 @@
-import React from 'react/addons';
+import React from 'react';
 
 var getDimensions = () => ({
   width: window.innerWidth,
@@ -26,7 +26,7 @@ export default class FullScreen extends React.Component {
   }
 
   render() {
-    const child = React.addons.cloneWithProps(React.Children.only(this.props.children),
+    const child = React.cloneElement(React.Children.only(this.props.children),
       {
         width: this.state.width,
         height: this.state.height
